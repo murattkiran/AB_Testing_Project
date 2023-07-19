@@ -28,7 +28,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', 10)
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
-# Step1: Step 1: Read the dataset ab_testing_data.xlsx consisting of control and test group data.
+# Step 1: Read the dataset ab_testing_data.xlsx consisting of control and test group data.
 # Assign control and test group data to separate variables
 
 df_control = pd.read_excel("ABTesti/ab_testing.xlsx", sheet_name="Control Group")
@@ -152,7 +152,7 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 
 # Step 2: Advise the customer according to the test results you have obtained.
 
-#Since there is no significant difference between the methods in terms of purchase outcomes, customers can choose either method.
+# Since there is no significant difference between the methods in terms of purchase outcomes, customers can choose either method.
 # However, differences in other statistics should also be considered.
 # Therefore, as a recommendation, it would be beneficial to evaluate these other differences and determine which method is more profitable.
 # Of course, this would require extending the duration of the test to gather sufficient data for a more comprehensive analysis.
